@@ -1,52 +1,49 @@
+# TrackIt : Project Tracking Made Easy 🚀
 
-# TrackIt : Project Tracking Made Easy
+TrackIT is a robust Project Management Web Application designed to streamline the process of tracking team projects, assigning user stories, and providing detailed task analysis.
 
-TrackIT is a Project Management Web Application used to track Team Projects, assign User Stories and provide detailed Task Analysis.
 
-## Team Members
+## User Requirements 📝
 
-- Naga Venkata Nishanth Sayana - sayana.n@northeastern.edu
-- Nikhil Reddy Karukonda - karukonda.n@northeastern.edu
-- Venkatesha Matam - matam.v@northeastern.edu
-- Rahul Chowdary Kalapala - Kalapala.r@northeastern.edu
+- **User Login/Register Page**
+  - Register: User can create an account with username and password.
+  - Login: Registered users can log in to their existing account.
+- **Home Page**
+  - View and create Project Groups.
+  - Project Group admin can manage group details like adding or deleting members, updating project titles, deleting entire Project Group, etc.
+  - Users can modify their profiles. By default, User will have access to groups he is part of
+- **Project Group Details Page**
+  - Display of user/project tasks.
+  - Task management features and Dashboard Metrics.
+  - Email notifications on task status changes.
+  - Task filtering options. Users can view each task detail like task_status (Created, InProgress, Done), due_date, description, task_created_by, task_assigned_to, task_label (feature/bug)
+  - Pie chart for task progress visualization in the Project Group
 
-## User Requirements
+## Features 🌟
 
-- User Login/Register Page
-- Home Page (Displays Project Groups)
-- Project Group Detail Page with Project Tasks and Dashboard Metrics
+1. **Efficient Project Group Management**: Create, update, and delete project groups with ease.
+2. **Dynamic Task Handling**: Add, update, or delete tasks within project groups.
+3. **User-Friendly Dashboard**: A dashboard offering comprehensive metrics and a pie chart visualization of task progress.
+4. **Customizable Notifications**: Automated email alerts for task status updates.
+5. **Advanced Filtering**: Filter tasks by status, due date, or group member name.
 
-## User Login/Register Page
+## Assumptions 📌
 
-- Register: User can create account with details username and password
-- Login: Registered User can log in to their existing account
+- A user can be a member of multiple Project Groups.
+- Each Project Group requires at least one user.
+- A user in a Project Group can be assigned multiple tasks, but each task is unique to one user.
 
-## Home Page  
+## Team Members 👥
 
-- User will be able to View and Create Project Groups
-- User can create a new Project Group
-- Project Group admin user can update group details like adding or deleting members, updating project title etc
-- Admin can delete entire Project Group
-- By default, User will have access to groups he is part of
-- Admin can add other users in the Organization to the project group through Application.
-- LoggedIn User can view or modify his profile
+- Nikhil Reddy Karukonda - `karukonda.n@northeastern.edu`
+- Venkatesha Matam - `matam.v@northeastern.edu`
+- Naga Venkata Nishanth Sayana - `sayana.n@northeastern.edu`
+- Rahul Chowdary Kalapala - `Kalapala.r@northeastern.edu`
 
-## Project Group Details page
+<!-- ## Domain Model Diagram 📊
 
-- User tasks are displayed in the project details page
-- User can add, update or delete tasks
-- User can click on each task to get detailed information like task_status (Created, InProgress, Done), due_date, description, task_created_by, task_assigned_to, task_label (feature/bug)
-- An email notification will be triggered to user on every task status change for his assigned tasks
-- User can filter tasks based on task status and group_member_name, due_date
-- Pie Chart will be displayed to user to show the progress of all tasks in the Project Group
-- User can have detailed view (User Profile) all the existing members of the Project Group
+![Project Tracking Domain Model](./project-tracking-domain-model.jpeg)  -->
 
-## Assumptions
-
-- Each User can be part of multiple Project Groups
-- Each Project Group should have atleast one user
-- In each Project Group, one user can be assigned multiple tasks but one task can only be assigned to one user
-
-## Domain Model Diagram
+## Domain Model Diagram 📊
 
 <img alt="Project Tracking Domain Model" src="./project-tracking-domain-model.jpeg" height=“350” width=“720”>
