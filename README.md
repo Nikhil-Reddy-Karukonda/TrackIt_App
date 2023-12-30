@@ -8,16 +8,32 @@ TrackIT is a robust Project Management Web Application designed to streamline th
 - **User Login/Register Page**
   - Register: User can create an account with username and password.
   - Login: Registered users can log in to their existing account.
+  <div style="display: flex; align-items: center; justify-content: space-around;">
+      <img alt="Register" src="./Demo/assets/Register.png" style="height: 130px; width: 120px;">
+      <img alt="Login" src="./Demo/assets/Login.png" style="height: 130px; width: 120px;">
+      <img alt="OTP" src="./Demo/assets/OTP.png" style="height: 130px; width: 120px;">
+  </div>
+
 - **Home Page**
+  ![Projects](./Demo/assets/Projects.png)
   - View and create Project Groups.
   - Project Group admin can manage group details like adding or deleting members, updating project titles, deleting entire Project Group, etc.
   - Users can modify their profiles. By default, User will have access to groups he is part of
+    <img alt="Projects CRUD" src="./Demo/assets/Projects_crud.png" height=“300” width=“480”>
+
+
 - **Project Group Details Page**
+  <div style="display: flex; flex-direction: column; align-items: center;">
+      <img alt="Projects Tasks" src="./Demo/assets/Project_tasks.png" style="width: 500px; margin-bottom: 10px; height: 220px">
+      <img alt="Task Detail" src="./Demo/assets/Task_detail.png" style="width: 500px; height: 190px">
+  </div>
+
   - Display of user/project tasks.
   - Task management features and Dashboard Metrics.
   - Email notifications on task status changes.
   - Task filtering options. Users can view each task detail like task_status (Created, InProgress, Done), due_date, description, task_created_by, task_assigned_to, task_label (feature/bug)
   - Pie chart for task progress visualization in the Project Group
+  <img alt="Pie Visualization" src="./Demo/assets/pie.png" height=“40” width=“40”>
 
 ## Features 🌟
 
@@ -40,10 +56,6 @@ TrackIT is a robust Project Management Web Application designed to streamline th
 - Naga Venkata Nishanth Sayana - `sayana.n@northeastern.edu`
 - Rahul Chowdary Kalapala - `Kalapala.r@northeastern.edu`
 
-<!-- ## Domain Model Diagram 📊
-
-![Project Tracking Domain Model](./project-tracking-domain-model.jpeg)  -->
-
 ## Domain Model Diagram 📊
 
-<img alt="Project Tracking Domain Model" src="./project-tracking-domain-model.jpeg" height=“350” width=“720”>
+<img alt="Project Tracking Domain Model" src="../Demo/../TrackIt_App/Demo/assets/project-tracking-domain-model.jpeg" height=“380” width=“680”>
