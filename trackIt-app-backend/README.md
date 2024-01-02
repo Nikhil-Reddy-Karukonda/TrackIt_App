@@ -5,6 +5,7 @@ Instructions for setting up the project locally.
 ### 📋 Prerequisites
 
 - **Node.js** - [Download & Install Node.js](https://nodejs.org/en/download/)
+- **MongoDB** - [Download & Install MongoDB](https://www.mongodb.com/try/download/community)
 
 ### 🛠 Installation
 
