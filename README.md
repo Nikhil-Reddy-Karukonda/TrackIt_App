@@ -2,6 +2,9 @@
 
 TrackIT is a robust Project Management Web Application designed to streamline the process of tracking team projects, assigning user stories, and providing detailed task analysis.
 
+### 🚀 Technologies
+
+![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white) ![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white) ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?logo=mongodb&logoColor=white) ![Express](https://img.shields.io/badge/-Express-000000?logo=express&logoColor=white) ![Context API](https://img.shields.io/badge/-ContextAPI-5D4037?logo=react&logoColor=white) ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white) ![MUI](https://img.shields.io/badge/-MUI-007FFF?logo=mui&logoColor=white) ![Moment.js](https://img.shields.io/badge/-Moment-FFCA28?logo=javascript&logoColor=black) ![Chart.js](https://img.shields.io/badge/-Chart.js-FF6384?logo=chart.js&logoColor=white)
 
 ## User Requirements 📝
 
